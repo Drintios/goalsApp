@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Dashboard from '@/components/Dashboard'
 import Goal from '@/components/Goal'
+import NewGoal from '@/components/NewGoal'
 
 Vue.use(Router)
 
@@ -23,6 +24,11 @@ export default new Router({
           component: Goal
         }
       ]
+    },
+    {
+      path: '/new-goal',
+      name: 'new-goal',
+      component: NewGoal
     }
   ]
 })

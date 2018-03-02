@@ -7,7 +7,7 @@
       app
     >
       <v-list dense>
-        <v-list-tile>
+        <v-list-tile to="/">
           <v-list-tile-action>
             <v-icon>dashboard</v-icon>
           </v-list-tile-action>
